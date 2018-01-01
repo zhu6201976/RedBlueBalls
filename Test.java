@@ -36,7 +36,7 @@ public class Test{
 		Random random = new Random();
 		Scanner input = new Scanner(System.in);
 		
-		// 2.填充红球池集合元素
+		// 2.填充红球池集合元素，1-33
 		for(int i=0;i<redBalls.length;i++){
 			redBalls[i] = i+1;
 		}
@@ -146,6 +146,28 @@ public class Test{
 	}
 		
 }
+
+/**
+E:\study\Android\src\Test>java Test
+游戏开始，祝你好运！
+请问您是机选还是手选？1.机选2.手选
+1
+本期中奖红球号码为：[3, 6, 11, 16, 20, 33]
+本期中奖蓝球号码为：15
+您选择的红球号码为：[6, 10, 14, 17, 25, 33]
+您选择的蓝球号码为：15
+恭喜您中了六等奖，5块钱！
+
+E:\study\Android\src\Test>java Test
+游戏开始，祝你好运！
+请问您是机选还是手选？1.机选2.手选
+1
+本期中奖红球号码为：[3, 14, 19, 24, 26, 30]
+本期中奖蓝球号码为：14
+您选择的红球号码为：[7, 8, 16, 18, 22, 23]
+您选择的蓝球号码为：12
+很遗憾，啥也没捞到！
+*/
 
 
 
